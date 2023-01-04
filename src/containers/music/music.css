@@ -1,0 +1,62 @@
+.portfolio-music .portfolio-music-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.portfolio-music-text h1{
+    font-family: var(--font-family);
+    font-size: 66px;
+    margin-left: 4rem;
+}
+
+.portfolio-music .portfolio-statsmusic:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-music-text h1{
+        margin-left: 2rem;
+        font-size: 40px;
+    }
+
+    .portfolio-music-text img{
+        max-width: 170px;
+        max-height: 170px;
+    }
+
+    .portfolio-music .portfolio-statsmusic{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio-music .portfolio-statsmusic:nth-child(odd){
+        flex-direction: column;
+    }
+    
+    .portfolio-music .portfolio-statsmusic:nth-child(even){
+        flex-direction: column;
+    }
+
+    .portfolio-music .portfolio-statsmusic-feature{
+        max-width: 100%;
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .portfolio-music-text h1{
+        margin-left: 0;
+    }
+
+    .portfolio-music .portfolio-music-text{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .portfolio-music .portfolio-statsmusic-feature{
+        max-width: 100%;
+        margin: 0 0.5rem;
+    }
+}

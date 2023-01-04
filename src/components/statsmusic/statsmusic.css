@@ -1,0 +1,80 @@
+.portfolio-statsmusic{
+    display: flex;
+    flex-direction: row;
+    padding: 0 6rem;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.portfolio-statsmusic-image{
+    flex: 1.5;
+    max-width: 250px;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-statsmusic-image img{
+    min-width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-statsmusic-feature{
+    flex: 1;
+    max-width: 50%;
+}
+
+.portfolio-statsmusic-feature .gpt3__features-container__feature{
+    flex-direction: column;
+}
+
+.portfolio-statsmusic-feature .gpt3__features-container__feature-title h1{
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.portfolio-statsmusic-feature .gpt3__features-container__feature-text{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px){
+    .portfolio-statsmusic{
+        padding: 3rem;
+        justify-content: space-between;
+    }
+
+    .portfolio-statsmusic-feature .gpt3__features-container__feature-title h1{
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+    .portfolio-statsmusic-feature .gpt3__features-container__feature-text{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .portfolio-statsmusic{
+        padding: 2rem;
+        justify-content: space-between;
+    }
+
+    .portfolio-statsmusic-image{
+        max-width: 200px;
+        max-height: 400px;
+    }
+
+    .portfolio-statsmusic-feature .gpt3__features-container__feature-title h1{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .portfolio-statsmusic-feature .gpt3__features-container__feature-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .portfolio-statsmusic{
+        padding: 1rem;
+    }
+}

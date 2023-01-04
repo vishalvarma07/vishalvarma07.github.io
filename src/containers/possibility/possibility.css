@@ -1,0 +1,134 @@
+.gpt3__possibility {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem 6rem;
+}
+
+b{
+    color: white;
+}
+
+.gpt3__possibility-image {
+    flex: 1;
+    display: flex;
+    color: #000000;
+    justify-content: flex-start;
+    background: var(--gradient-bar);
+    padding: 2rem;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+    border-radius: 3%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.heading {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.gpt3__possibility-image img {
+    width: 100%;
+    height: auto;
+}
+
+.gpt3__possibility-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.gpt3__possibility-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin-bottom: 2rem;
+}
+
+/* .gpt3__possibility-content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #71E5FF;
+    margin-bottom: 2rem;
+} */
+
+.gpt3__possibility-content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+
+    color: #FF8A71;
+}
+
+.gpt3__possibility-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+
+    color: #81AFDD;
+}
+
+@media screen and (max-width: 980px) {
+    .gpt3__possibility {
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+
+    .gpt3__possibility-image {
+        margin-bottom: 2rem;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .heading{
+        margin-bottom: 1rem;
+    }
+
+    .gpt3__possibility-content {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__possibility {
+        padding: 3rem 3rem;
+        margin: 1rem;
+    }
+    .gpt3__possibility-image {
+        padding :0;
+        margin-bottom: 2rem;
+        border-radius: 5%;
+    }
+    .heading{
+        margin-bottom: 1rem;
+    }
+
+    .content{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .gpt3__possibility {
+        padding: 0 1rem 0 1rem;
+        margin: 1rem;
+    }
+    .gpt3__possibility-image {
+        padding :0;
+        margin-bottom: 2rem;
+    }
+}

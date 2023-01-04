@@ -1,0 +1,114 @@
+.gpt3__features-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: space-between;
+}
+
+.gpt3__features-container-title {
+    max-width: 430px;
+    flex: 0.3;
+    justify-content: flex-start;
+}
+
+.gpt3__features-container-title h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 1rem;
+}
+
+.gpt3__features-container-title p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+
+.gpt3__features-container__features {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.gpt3__features-container__feature .gpt3__features-container__feature-title h1{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.gpt3__features-container__feature .gpt3__features-container__feature-title p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.gpt3__features-container__feature .gpt3__features-container__feature {
+    margin-bottom: 2rem
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-container {
+        flex-direction: column;
+    }
+
+    .gpt3__features-container-title h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .gpt3__features-container-title p {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .gpt3__features-container__features .gpt3__features-container__feature-title h1{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gpt3__features-container__features .gpt3__features-container__feature-title p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__features-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .gpt3__features-container__features {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .gpt3__features-container-title{
+        margin: 0;
+    }
+
+    .gpt3__features-container-title h1 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+
+    .gpt3__features-container-title p {
+        font-size: 12px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .gpt3__features-container__features .gpt3__features-container__feature-title h1{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gpt3__features-container__features .gpt3__features-container__feature-title p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
