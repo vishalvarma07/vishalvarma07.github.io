@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e5df2da.css",
+    "main.js": "/static/js/main.bf5f1e0f.js",
+    "static/media/personality.png": "/static/media/personality.41ed6e7aee1ad9060f21.png",
+    "static/media/dsc.png": "/static/media/dsc.9f0d59847dc5691552e5.png",
+    "static/media/awsfundamentals.png": "/static/media/awsfundamentals.e9e3cad5dbbc1c2ed663.png",
+    "static/media/tops.png": "/static/media/tops.dc34c534d9c61c9bb931.png",
+    "static/media/topsong.png": "/static/media/topsong.3939f37826d7a6f34799.png",
+    "static/media/minutes.png": "/static/media/minutes.a0c25765c94f29e70e71.png",
+    "static/media/artist.png": "/static/media/artist.27f2c3f2631536a3947b.png",
+    "static/media/genre.png": "/static/media/genre.1134c1c25d15625ef127.png",
+    "static/media/profile.png": "/static/media/profile.5157a4368f4037d37ba0.png",
+    "static/media/aws.png": "/static/media/aws.4ab80e24e2372b663adc.png",
+    "static/media/exploreml.png": "/static/media/exploreml.2aac8957ca616fbebeb1.png",
+    "static/media/instagram.png": "/static/media/instagram.1eb3ece51953e8de967b.png",
+    "static/media/node.png": "/static/media/node.3a98f550128fb38e1d4f.png",
+    "static/media/react.png": "/static/media/react.6bec877c561ae92e2a21.png",
+    "static/media/mysql.png": "/static/media/mysql.acd53741a304c36f79e8.png",
+    "static/media/express.png": "/static/media/express.1fc9650a8184541f5eaf.png",
+    "static/media/js.png": "/static/media/js.40d962befd8f6b885a87.png",
+    "static/media/html5.png": "/static/media/html5.075a60a3999d26257060.png",
+    "static/media/python.png": "/static/media/python.75343eed4225170d4d03.png",
+    "static/media/spotify.png": "/static/media/spotify.ddf7fbdbecb5c246497d.png",
+    "static/media/css.png": "/static/media/css.cabf7f18644106f35f20.png",
+    "static/media/github.png": "/static/media/github.1c847692696c7c1bbc8d.png",
+    "index.html": "/index.html",
+    "main.4e5df2da.css.map": "/static/css/main.4e5df2da.css.map",
+    "main.bf5f1e0f.js.map": "/static/js/main.bf5f1e0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e5df2da.css",
+    "static/js/main.bf5f1e0f.js"
+  ]
+}
