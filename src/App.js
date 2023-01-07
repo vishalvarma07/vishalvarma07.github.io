@@ -47,6 +47,10 @@ const App = () => {
         <Route path="/gamestats" element={
           <div className='App'>
             <div className='gradient__bg'> 
+              <Sound
+                url={favsong}
+                playStatus={Sound.status.PLAYING}
+              />
               {/* <Navbar Menu={Menu}/> */}
             </div>
             <div>
